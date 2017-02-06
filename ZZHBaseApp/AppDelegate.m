@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZZHBaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ZZHBaseTabBarController * tabbar = [[ZZHBaseTabBarController alloc]init];
+//    tabbar.delegate = self;
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
+    
+    [ZZHLoginModel login];
+
     return YES;
 }
 

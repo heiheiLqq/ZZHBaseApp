@@ -1,0 +1,23 @@
+//
+//  ZZHPrefixHeader.pch
+//  ZZHBaseApp
+//
+//  Created by zzh on 2017/2/6.
+//  Copyright © 2017年 zzh. All rights reserved.
+//
+
+#ifndef ZZHPrefixHeader_pch
+#define ZZHPrefixHeader_pch
+
+
+#import "ZZHAFNTool.h"
+#import "ZZHLoginModel.h"
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#define BASE_API @"http:api.qianhar.com:8080/water/mobile"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZZHPrefixHeader_pch */
