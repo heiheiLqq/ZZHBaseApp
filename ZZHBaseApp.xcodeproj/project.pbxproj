@@ -17,7 +17,6 @@
 		2665CC5A1E4860B2002D2184 /* ZZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC531E4860B2002D2184 /* ZZHBaseNavigationController.m */; };
 		2665CC5B1E4860B2002D2184 /* ZZHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC551E4860B2002D2184 /* ZZHBaseTabBarController.m */; };
 		2665CC5C1E4860B2002D2184 /* ZZHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC571E4860B2002D2184 /* ZZHBaseTableViewController.m */; };
-		2665CC6E1E4862A3002D2184 /* ZZHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC6D1E4862A3002D2184 /* ZZHomeController.m */; };
 		2665CC711E4862C1002D2184 /* ZZHUserCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC701E4862C1002D2184 /* ZZHUserCenterController.m */; };
 		2665CC781E486555002D2184 /* ZZHAFNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC771E486555002D2184 /* ZZHAFNTool.m */; };
 		2665CC7F1E486E1B002D2184 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC7E1E486E1B002D2184 /* NSString+Extension.m */; };
@@ -32,6 +31,7 @@
 		2665CCAD1E488969002D2184 /* ZZHRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2665CCAB1E488969002D2184 /* ZZHRegisterController.xib */; };
 		2665CCB61E489587002D2184 /* ZZHTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CCB51E489587002D2184 /* ZZHTestController.m */; };
 		2665CCB91E48991F002D2184 /* ZZHTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CCB81E48991F002D2184 /* ZZHTestModel.m */; };
+		2665CCC01E48A359002D2184 /* ZZHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CCBD1E48A359002D2184 /* ZZHomeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,6 @@
 		2665CC551E4860B2002D2184 /* ZZHBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHBaseTabBarController.m; sourceTree = "<group>"; };
 		2665CC561E4860B2002D2184 /* ZZHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHBaseTableViewController.h; sourceTree = "<group>"; };
 		2665CC571E4860B2002D2184 /* ZZHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHBaseTableViewController.m; sourceTree = "<group>"; };
-		2665CC6C1E4862A3002D2184 /* ZZHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeController.h; sourceTree = "<group>"; };
-		2665CC6D1E4862A3002D2184 /* ZZHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeController.m; sourceTree = "<group>"; };
 		2665CC6F1E4862C1002D2184 /* ZZHUserCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHUserCenterController.h; sourceTree = "<group>"; };
 		2665CC701E4862C1002D2184 /* ZZHUserCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHUserCenterController.m; sourceTree = "<group>"; };
 		2665CC761E486555002D2184 /* ZZHAFNTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHAFNTool.h; sourceTree = "<group>"; };
@@ -101,6 +99,8 @@
 		2665CCB51E489587002D2184 /* ZZHTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHTestController.m; sourceTree = "<group>"; };
 		2665CCB71E48991F002D2184 /* ZZHTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHTestModel.h; sourceTree = "<group>"; };
 		2665CCB81E48991F002D2184 /* ZZHTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHTestModel.m; sourceTree = "<group>"; };
+		2665CCBC1E48A359002D2184 /* ZZHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeController.h; sourceTree = "<group>"; };
+		2665CCBD1E48A359002D2184 /* ZZHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeController.m; sourceTree = "<group>"; };
 		68BBE8E9A584BB31F97F7ABE /* Pods-ZZHBaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZHBaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZHBaseApp/Pods-ZZHBaseApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB1722A142E6DA0727FF277 /* libPods-ZZHBaseApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZHBaseApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,8 +161,8 @@
 				2665CC721E4864BE002D2184 /* Tool (工具) */,
 				2665CC651E4861C0002D2184 /* Test （测试） */,
 				2665CC611E48617D002D2184 /* UserCenter (个人中心) */,
-				2665CC5D1E486116002D2184 /* Home (首页) */,
 				2665CC441E4858AE002D2184 /* Base （基类） */,
+				2665CCBA1E48A359002D2184 /* Home (首页) */,
 				2600ACBB1E471E0000D6CC82 /* AppDelegate.h */,
 				2600ACBC1E471E0000D6CC82 /* AppDelegate.m */,
 				2665CC791E486628002D2184 /* ZZHPrefixHeader.pch */,
@@ -231,40 +231,6 @@
 			sourceTree = "<group>";
 		};
 		2665CC591E4860B2002D2184 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2665CC5D1E486116002D2184 /* Home (首页) */ = {
-			isa = PBXGroup;
-			children = (
-				2665CC5E1E486116002D2184 /* controller */,
-				2665CC5F1E486116002D2184 /* model */,
-				2665CC601E486116002D2184 /* view */,
-			);
-			name = "Home (首页)";
-			path = "Base （基类）/Home (首页)";
-			sourceTree = "<group>";
-		};
-		2665CC5E1E486116002D2184 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				2665CC6C1E4862A3002D2184 /* ZZHomeController.h */,
-				2665CC6D1E4862A3002D2184 /* ZZHomeController.m */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2665CC5F1E486116002D2184 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2665CC601E486116002D2184 /* view */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -446,6 +412,39 @@
 			sourceTree = "<group>";
 		};
 		2665CCB01E489516002D2184 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2665CCBA1E48A359002D2184 /* Home (首页) */ = {
+			isa = PBXGroup;
+			children = (
+				2665CCBB1E48A359002D2184 /* controller */,
+				2665CCBE1E48A359002D2184 /* model */,
+				2665CCBF1E48A359002D2184 /* view */,
+			);
+			path = "Home (首页)";
+			sourceTree = "<group>";
+		};
+		2665CCBB1E48A359002D2184 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2665CCBC1E48A359002D2184 /* ZZHomeController.h */,
+				2665CCBD1E48A359002D2184 /* ZZHomeController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2665CCBE1E48A359002D2184 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2665CCBF1E48A359002D2184 /* view */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -661,10 +660,10 @@
 				2665CC5A1E4860B2002D2184 /* ZZHBaseNavigationController.m in Sources */,
 				2600ACBD1E471E0000D6CC82 /* AppDelegate.m in Sources */,
 				2665CC711E4862C1002D2184 /* ZZHUserCenterController.m in Sources */,
+				2665CCC01E48A359002D2184 /* ZZHomeController.m in Sources */,
 				2600ACBA1E471E0000D6CC82 /* main.m in Sources */,
 				2665CCA01E488842002D2184 /* ZZHLoginController.m in Sources */,
 				2665CC5C1E4860B2002D2184 /* ZZHBaseTableViewController.m in Sources */,
-				2665CC6E1E4862A3002D2184 /* ZZHomeController.m in Sources */,
 				2665CCAC1E488969002D2184 /* ZZHRegisterController.m in Sources */,
 				2665CC8A1E4874C9002D2184 /* UIView+Extension.m in Sources */,
 				2665CC891E4874C9002D2184 /* UIBarButtonItem+Extension.m in Sources */,
