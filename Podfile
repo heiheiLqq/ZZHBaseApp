@@ -10,4 +10,5 @@ pod 'pop'
 pod 'IQKeyboardManager'
 pod 'NJKWebViewProgress'
 pod 'Masonry'
+pod 'SDiPhoneVersion'
 end

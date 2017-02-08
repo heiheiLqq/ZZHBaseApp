@@ -16,4 +16,9 @@
 @property (nonatomic, assign) CGFloat y;
 @property (nonatomic, assign) CGFloat centerY;
 @property (nonatomic, assign) CGFloat centerX;
+/***
+ *给任意view添加点击事件
+ */
+- (void)addClickedBlock:(void(^)(id obj))tapAction;
+
 @end

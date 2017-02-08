@@ -26,6 +26,7 @@ PODS:
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
   - pop (1.0.9)
+  - SDiPhoneVersion (1.1.2)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - MJRefresh
   - NJKWebViewProgress
   - pop
+  - SDiPhoneVersion
   - SDWebImage
   - SVProgressHUD
 
@@ -54,9 +56,10 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDiPhoneVersion: c52245ccaab8142701e2e7fb8f0391ba3f255b76
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: d747f818952ff9fae6aab44a0c378dd931438e48
+PODFILE CHECKSUM: 55c73b957491aa6bd4fc34b51bca449e5a015cf8
 
 COCOAPODS: 1.2.0

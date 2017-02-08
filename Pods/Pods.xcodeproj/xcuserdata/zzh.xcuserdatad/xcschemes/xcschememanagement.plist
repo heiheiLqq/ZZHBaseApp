@@ -54,6 +54,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDiPhoneVersion.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,12 +77,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>18E5635B4455040035FF6F8F877A5F71</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>45B611356844F347B1B55193B9EF238B</key>
+		<key>1DA57CE417E03977FEF87FA40CD208FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,12 +87,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6730CFFF4B56D7359A4644C64F1AC4D4</key>
+		<key>70D590D3FE53BF49D6C77D64D9640C15</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E2E825C11BA881C733D8587DB6FE6B3</key>
+		<key>7B0795CB2287C66A3891B0119632094B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F73EB5EAE37427A54F0E76C12C5D7F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F2DE68D7022227D3B8814EEC87A71A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

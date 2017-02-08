@@ -14,6 +14,10 @@
 		2600ACC81E471E0000D6CC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2600ACC61E471E0000D6CC82 /* LaunchScreen.storyboard */; };
 		2600ACD31E471E0000D6CC82 /* ZZHBaseAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600ACD21E471E0000D6CC82 /* ZZHBaseAppTests.m */; };
 		2600ACDE1E471E0000D6CC82 /* ZZHBaseAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600ACDD1E471E0000D6CC82 /* ZZHBaseAppUITests.m */; };
+		262492BB1E4AAC6300B9453B /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 262492BA1E4AAC6300B9453B /* UIColor+Extension.m */; };
+		262492BE1E4AAFEA00B9453B /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 262492BD1E4AAFEA00B9453B /* UINavigationBar+Extension.m */; };
+		262492C11E4AB9B400B9453B /* ZZHFileManagerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 262492C01E4AB9B400B9453B /* ZZHFileManagerUtils.m */; };
+		262492C41E4ABCED00B9453B /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 262492C31E4ABCED00B9453B /* NSUserDefaults+Extension.m */; };
 		2665732A1E49BEBD00642530 /* ZZHProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 266573291E49BEBD00642530 /* ZZHProgressHUD.m */; };
 		2665CC5A1E4860B2002D2184 /* ZZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC531E4860B2002D2184 /* ZZHBaseNavigationController.m */; };
 		2665CC5B1E4860B2002D2184 /* ZZHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC551E4860B2002D2184 /* ZZHBaseTabBarController.m */; };
@@ -67,6 +71,14 @@
 		2600ACD91E471E0000D6CC82 /* ZZHBaseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHBaseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2600ACDD1E471E0000D6CC82 /* ZZHBaseAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHBaseAppUITests.m; sourceTree = "<group>"; };
 		2600ACDF1E471E0000D6CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262492B91E4AAC6300B9453B /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		262492BA1E4AAC6300B9453B /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		262492BC1E4AAFEA00B9453B /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extension.h"; sourceTree = "<group>"; };
+		262492BD1E4AAFEA00B9453B /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extension.m"; sourceTree = "<group>"; };
+		262492BF1E4AB9B400B9453B /* ZZHFileManagerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHFileManagerUtils.h; sourceTree = "<group>"; };
+		262492C01E4AB9B400B9453B /* ZZHFileManagerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHFileManagerUtils.m; sourceTree = "<group>"; };
+		262492C21E4ABCED00B9453B /* NSUserDefaults+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Extension.h"; sourceTree = "<group>"; };
+		262492C31E4ABCED00B9453B /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
 		266573281E49BEBD00642530 /* ZZHProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHProgressHUD.h; sourceTree = "<group>"; };
 		266573291E49BEBD00642530 /* ZZHProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHProgressHUD.m; sourceTree = "<group>"; };
 		2665CC521E4860B2002D2184 /* ZZHBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHBaseNavigationController.h; sourceTree = "<group>"; };
@@ -306,6 +318,12 @@
 				2665CC871E4874C9002D2184 /* UIImage+Extension.m */,
 				2665CC7D1E486E1B002D2184 /* NSString+Extension.h */,
 				2665CC7E1E486E1B002D2184 /* NSString+Extension.m */,
+				262492B91E4AAC6300B9453B /* UIColor+Extension.h */,
+				262492BA1E4AAC6300B9453B /* UIColor+Extension.m */,
+				262492BC1E4AAFEA00B9453B /* UINavigationBar+Extension.h */,
+				262492BD1E4AAFEA00B9453B /* UINavigationBar+Extension.m */,
+				262492C21E4ABCED00B9453B /* NSUserDefaults+Extension.h */,
+				262492C31E4ABCED00B9453B /* NSUserDefaults+Extension.m */,
 			);
 			path = categroy;
 			sourceTree = "<group>";
@@ -317,6 +335,8 @@
 				2665CC771E486555002D2184 /* ZZHAFNTool.m */,
 				266573281E49BEBD00642530 /* ZZHProgressHUD.h */,
 				266573291E49BEBD00642530 /* ZZHProgressHUD.m */,
+				262492BF1E4AB9B400B9453B /* ZZHFileManagerUtils.h */,
+				262492C01E4AB9B400B9453B /* ZZHFileManagerUtils.m */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -661,13 +681,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262492C11E4AB9B400B9453B /* ZZHFileManagerUtils.m in Sources */,
+				262492BE1E4AAFEA00B9453B /* UINavigationBar+Extension.m in Sources */,
 				2665CCB91E48991F002D2184 /* ZZHTestModel.m in Sources */,
 				2665CC5A1E4860B2002D2184 /* ZZHBaseNavigationController.m in Sources */,
 				2600ACBD1E471E0000D6CC82 /* AppDelegate.m in Sources */,
 				2665CC711E4862C1002D2184 /* ZZHUserCenterController.m in Sources */,
 				2665CCC01E48A359002D2184 /* ZZHomeController.m in Sources */,
 				2600ACBA1E471E0000D6CC82 /* main.m in Sources */,
+				262492C41E4ABCED00B9453B /* NSUserDefaults+Extension.m in Sources */,
 				2665CCA01E488842002D2184 /* ZZHLoginController.m in Sources */,
+				262492BB1E4AAC6300B9453B /* UIColor+Extension.m in Sources */,
 				2665CC5C1E4860B2002D2184 /* ZZHBaseTableViewController.m in Sources */,
 				2665CCAC1E488969002D2184 /* ZZHRegisterController.m in Sources */,
 				2665CC8A1E4874C9002D2184 /* UIView+Extension.m in Sources */,

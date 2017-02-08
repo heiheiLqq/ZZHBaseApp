@@ -18,4 +18,29 @@
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     return [[self alloc] initWithCustomView:button];
 }
+
++ (UIBarButtonItem *)itemWithTitle:(NSString *)title Target:(id)target Action:(SEL)action
+{
+    UIButton *titleBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    titleBtn.bounds = (CGRect){0,0,50,40};
+    [titleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    // [titleBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, 10, 0, 0)];
+    [titleBtn setTitle:title forState:UIControlStateNormal];
+    
+    [titleBtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    return  [[UIBarButtonItem alloc] initWithCustomView:titleBtn];
+}
+
++ (UIBarButtonItem *)itemWithTitle:(NSString *)title Target:(id)target Action:(SEL)action Size:(CGSize)size
+{
+    UIButton *titleBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    titleBtn.bounds = (CGRect){0,0,size};
+    [titleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [titleBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, 10, 0, 0)];
+    [titleBtn setTitle:title forState:UIControlStateNormal];
+    
+    [titleBtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    return  [[UIBarButtonItem alloc] initWithCustomView:titleBtn];
+    
+}
 @end
