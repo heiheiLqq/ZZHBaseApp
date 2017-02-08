@@ -14,6 +14,7 @@
 #import "ZZHLoginModel.h"
 #import <MJRefresh.h>
 #import <MJExtension.h>
+#import <MBProgressHUD.h>
 #define BASE_API @"http:api.qianhar.com:8080/water/mobile"
 
 

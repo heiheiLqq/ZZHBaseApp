@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ZZHBaseNavigationController : UINavigationController
-
+- (void)back;
 @end

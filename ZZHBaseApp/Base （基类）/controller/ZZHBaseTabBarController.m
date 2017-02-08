@@ -22,27 +22,35 @@
     [super viewDidLoad];
     
     [self addTabbarItem];
-    
+    //自定义tabbar
 //    [self setValue:[[MyTabbar alloc] init] forKeyPath:@"tabBar"];
     
     
     
 }
+#pragma mark - 设置tabbar item
 +(void)initialize{
-    
+    //非选中状态
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    //非选中字体大小
     attrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+    //非选中字体颜色
     attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
-    
+    //选中状态
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
+    //选中状态下字体大小
     selectedAttrs[NSFontAttributeName] = attrs[NSFontAttributeName];
+    //选中状态下字体颜色
     selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
-    
+    //获得item
     UITabBarItem *item = [UITabBarItem appearance];
+    //设置item normal状态
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
+    //设置item selected状态
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
 }
+#pragma mark - 添加TabbarItem
 - (void)addTabbarItem{
     
     
@@ -53,7 +61,7 @@
 }
 
 
-
+#pragma mark- 添加子导航控制器
 - (void)addItemTitle:(NSString *)title andImage:(NSString *)image andSelectedImage:(NSString *)selectedImage andChildVc:(UIViewController *)vc{
     
     vc.tabBarItem.title = title;

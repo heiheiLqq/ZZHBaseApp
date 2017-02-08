@@ -19,13 +19,15 @@
     self.interactivePopGestureRecognizer.delegate = nil;
     
 }
+#pragma mark - 导航条设置样式
 +(void)initialize{
-    
+    //获得navigationBar
     UINavigationBar *bar = [UINavigationBar appearance];
-    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+//    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    //设置字体
     [bar setTitleTextAttributes:@{NSFontAttributeName : [UIFont boldSystemFontOfSize:20]}];
     
-    // 设置item
+    // 获得navigationItem
     UIBarButtonItem *item = [UIBarButtonItem appearance];
     // UIControlStateNormal
     NSMutableDictionary *itemAttrs = [NSMutableDictionary dictionary];
@@ -38,7 +40,7 @@
     [item setTitleTextAttributes:itemDisabledAttrs forState:UIControlStateDisabled];
     
 }
-
+#pragma mark - 重写push 方法
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.childViewControllers.count > 0) { // 如果push进来的不是第一个控制器

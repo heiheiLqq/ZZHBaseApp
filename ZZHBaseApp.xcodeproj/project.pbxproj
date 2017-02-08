@@ -14,6 +14,7 @@
 		2600ACC81E471E0000D6CC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2600ACC61E471E0000D6CC82 /* LaunchScreen.storyboard */; };
 		2600ACD31E471E0000D6CC82 /* ZZHBaseAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600ACD21E471E0000D6CC82 /* ZZHBaseAppTests.m */; };
 		2600ACDE1E471E0000D6CC82 /* ZZHBaseAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600ACDD1E471E0000D6CC82 /* ZZHBaseAppUITests.m */; };
+		2665732A1E49BEBD00642530 /* ZZHProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 266573291E49BEBD00642530 /* ZZHProgressHUD.m */; };
 		2665CC5A1E4860B2002D2184 /* ZZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC531E4860B2002D2184 /* ZZHBaseNavigationController.m */; };
 		2665CC5B1E4860B2002D2184 /* ZZHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC551E4860B2002D2184 /* ZZHBaseTabBarController.m */; };
 		2665CC5C1E4860B2002D2184 /* ZZHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665CC571E4860B2002D2184 /* ZZHBaseTableViewController.m */; };
@@ -66,6 +67,8 @@
 		2600ACD91E471E0000D6CC82 /* ZZHBaseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHBaseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2600ACDD1E471E0000D6CC82 /* ZZHBaseAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHBaseAppUITests.m; sourceTree = "<group>"; };
 		2600ACDF1E471E0000D6CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266573281E49BEBD00642530 /* ZZHProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHProgressHUD.h; sourceTree = "<group>"; };
+		266573291E49BEBD00642530 /* ZZHProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHProgressHUD.m; sourceTree = "<group>"; };
 		2665CC521E4860B2002D2184 /* ZZHBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHBaseNavigationController.h; sourceTree = "<group>"; };
 		2665CC531E4860B2002D2184 /* ZZHBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHBaseNavigationController.m; sourceTree = "<group>"; };
 		2665CC541E4860B2002D2184 /* ZZHBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHBaseTabBarController.h; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 			children = (
 				2665CC761E486555002D2184 /* ZZHAFNTool.h */,
 				2665CC771E486555002D2184 /* ZZHAFNTool.m */,
+				266573281E49BEBD00642530 /* ZZHProgressHUD.h */,
+				266573291E49BEBD00642530 /* ZZHProgressHUD.m */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 				2665CC8A1E4874C9002D2184 /* UIView+Extension.m in Sources */,
 				2665CC891E4874C9002D2184 /* UIBarButtonItem+Extension.m in Sources */,
 				2665CCA41E488853002D2184 /* ZZHLoginModel.m in Sources */,
+				2665732A1E49BEBD00642530 /* ZZHProgressHUD.m in Sources */,
 				2665CC8B1E4874C9002D2184 /* UIImage+Extension.m in Sources */,
 				2665CC881E4874C9002D2184 /* NSDate+Extension.m in Sources */,
 				2665CCB61E489587002D2184 /* ZZHTestController.m in Sources */,
